@@ -31,6 +31,6 @@ git push -u origin main
 
 ## Items to confirm
 
-- The provided GitHub account looked like an email address (`chaokai@gmail.com`). The site currently uses `https://github.com/chaokai` as a placeholder based on the account name. Replace it if your GitHub username is different.
+- The provided GitHub account looked like an email address (`chaokai.utokyo@gmail.com`). The site currently uses `https://github.com/chaokai` as a placeholder based on the account name. Replace it if your GitHub username is different.
 - The uploaded CV PDF still shows the University of Tokyo affiliation. The homepage has been updated to National Yang Ming Chiao Tung University based on the information provided in the chat. Replace `assets/docs/CV_ckchiang.pdf` when a new CV is ready.
-- Update the email in `index.html` if you prefer to show a university email instead of `chaokai@gmail.com`.
+- Update the email in `index.html` if you prefer to show a university email instead of `chaokai.utokyo@gmail.com`.
