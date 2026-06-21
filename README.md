@@ -1,6 +1,6 @@
 # Chao-Kai Chiang academic website
 
-This is a static academic / researcher website designed for GitHub Pages.
+This is a static academic / researcher website designed for GitHub Pages. The current version includes a Research Vision section, Google Scholar citation highlights, DBLP link, selected publications, linked publication titles, and an updated CV PDF.
 
 ## Files
 
@@ -8,7 +8,7 @@ This is a static academic / researcher website designed for GitHub Pages.
 - `assets/style.css` — responsive styling
 - `assets/script.js` — mobile menu and publication filters
 - `assets/img/profile.jpg` — optimized profile image
-- `assets/docs/` — uploaded CV and publication list PDFs
+- `assets/docs/` — updated CV and publication list PDFs
 - `.nojekyll` — prevents GitHub Pages from running Jekyll processing
 
 ## Deploy to GitHub Pages
@@ -31,6 +31,5 @@ git push -u origin main
 
 ## Items to confirm
 
-- The provided GitHub account looked like an email address (`chaokai.utokyo@gmail.com`). The site currently uses `https://github.com/chaokai` as a placeholder based on the account name. Replace it if your GitHub username is different.
+- The site currently uses `https://github.com/chaokai` for GitHub and `chaokai.utokyo@gmail.com` for contact email. Replace either value in `index.html` if needed.
 - The uploaded CV PDF still shows the University of Tokyo affiliation. The homepage has been updated to National Yang Ming Chiao Tung University based on the information provided in the chat. Replace `assets/docs/CV_ckchiang.pdf` when a new CV is ready.
-- Update the email in `index.html` if you prefer to show a university email instead of `chaokai.utokyo@gmail.com`.

@@ -26,7 +26,8 @@
     "email": "mailto:chaokai.utokyo@gmail.com",
     "sameAs": [
       "https://scholar.google.com/citations?user=pBQgK_YAAAAJ&hl=en&oi=ao",
-      "https://github.com/chaokai"
+      "https://github.com/chaokai",
+      "https://dblp.org/pid/34/8336.html"
     ]
   }
   </script>
@@ -39,8 +40,11 @@
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
       <div id="nav-menu" class="nav-menu">
         <a href="#about">About</a>
+        <a href="#vision">Vision</a>
         <a href="#research">Research</a>
+        <a href="#selected-publications">Selected</a>
         <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
@@ -55,8 +59,9 @@
         <p>I work at the intersection of weakly supervised learning, learning with label noise, online convex optimization, and multi-armed bandits. My research aims to remove application boundaries and develop principled learning methods that remain reliable under imperfect, shifted, or sequentially revealed information.</p>
         <div class="hero-actions">
           <a class="button primary" href="#research">Research overview</a>
-          <a class="button" href="#publications">Publications</a>
+          <a class="button" href="#selected-publications">Selected publications</a>
           <a class="button" href="assets/docs/CV_ckchiang.pdf">Download CV</a>
+          <a class="button" href="https://dblp.org/pid/34/8336.html">DBLP</a>
         </div>
       </div>
       <div class="hero-card" aria-label="Profile card">
@@ -65,6 +70,28 @@
           <strong>Chao-Kai Chiang</strong>
           <span>Assistant Professor</span>
           <span>National Yang Ming Chiao Tung University</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="vision" class="section vision-section">
+      <div class="vision-card">
+        <p class="eyebrow">Research Vision</p>
+        <h2>Remove application boundaries to lay the fundamental knowledge for future innovations.</h2>
+        <p>Modern machine learning often assumes clean labels, stable distributions, and complete feedback, while real-world systems must learn from weak, noisy, shifted, or sequentially revealed information. My research develops unified theory and practical algorithms for these realistic settings, with a long-term goal of understanding the weakest yet learnable forms of supervision and building adaptive learning systems that remain reliable beyond idealized assumptions.</p>
+      </div>
+      <div class="metrics-grid" aria-label="Google Scholar citation statistics">
+        <div class="metric-card">
+          <span class="metric-number">3,647+</span>
+          <span class="metric-label">Google Scholar citations</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-number">2,979</span>
+          <span class="metric-label">citations for Federated Multi-Task Learning</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-number">327</span>
+          <span class="metric-label">citations for Online Optimization with Gradual Variations</span>
         </div>
       </div>
     </section>
@@ -124,6 +151,65 @@
       </div>
     </section>
 
+
+    <section id="selected-publications" class="section">
+      <div class="section-heading compact">
+        <p class="eyebrow">Selected Publications</p>
+        <h2>Representative papers</h2>
+        <p>Selected by citation impact within the main research areas and by recent top-conference publications.</p>
+      </div>
+      <div class="selected-list">
+        <article class="publication selected-publication">
+          <div class="pub-meta"><span>NeurIPS 2017</span><span>Federated learning</span><span>2,979 citations</span></div>
+          <h3><a href="https://papers.nips.cc/paper/7029-federated-multi-task-learning">Federated Multi-Task Learning</a></h3>
+          <p class="authors">Virginia Smith, Chao-Kai Chiang, Maziar Sanjabi, and Ameet Talwalkar</p>
+          <p>A systems-aware federated multi-task learning framework for heterogeneous distributed data.</p>
+        </article>
+        <article class="publication selected-publication">
+          <div class="pub-meta"><span>COLT 2012</span><span>Online learning</span><span>327 citations</span><span>Best Student Paper</span></div>
+          <h3><a href="https://proceedings.mlr.press/v23/chiang12.html">Online Optimization with Gradual Variations</a></h3>
+          <p class="authors">Chao-Kai Chiang, Tianbao Yang, Chia-Jung Lee, Mehrdad Mahdavi, Chi-Jen Lu, Rong Jin, and Shenghuo Zhu</p>
+          <p>Introduced variation-aware regret analysis for online optimization in gradually changing environments.</p>
+        </article>
+        <article class="publication selected-publication">
+          <div class="pub-meta"><span>COLT 2016</span><span>Bandits</span><span>152 citations</span></div>
+          <h3><a href="https://arxiv.org/abs/1605.08722">An algorithm with nearly optimal pseudo-regret for both stochastic and adversarial bandits</a></h3>
+          <p class="authors">Peter Auer and Chao-Kai Chiang</p>
+          <p>A best-of-both-worlds bandit algorithm with nearly optimal pseudo-regret across stochastic and adversarial settings.</p>
+        </article>
+        <article class="publication selected-publication">
+          <div class="pub-meta"><span>TMLR 2025</span><span>Weak supervision</span><span>11 citations</span></div>
+          <h3><a href="https://openreview.net/forum?id=RGsdAwWuu6">Unified Risk Analysis for Weakly Supervised Learning</a></h3>
+          <p class="authors">Chao-Kai Chiang and Masashi Sugiyama</p>
+          <p>A unified contamination-decontamination view of weak supervision and risk rewriting across WSL/LLN settings.</p>
+        </article>
+        <article class="publication selected-publication">
+          <div class="pub-meta"><span>NeurIPS 2023</span><span>Weak supervision / imitation learning</span><span>13 citations</span></div>
+          <h3><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/96e35b532b4932a86cce8c929ff3f960-Abstract-Conference.html">Imitation Learning from Vague Feedback</a></h3>
+          <p class="authors">Xin-Qiang Cai, Yu-Jie Zhang, Chao-Kai Chiang, and Masashi Sugiyama</p>
+          <p>Applies weakly supervised learning ideas to recover useful imitation signals from vague feedback.</p>
+        </article>
+        <article class="publication selected-publication">
+          <div class="pub-meta"><span>ICML 2023</span><span>Thompson sampling</span><span>4 citations</span></div>
+          <h3><a href="https://proceedings.mlr.press/v202/lee23d.html">Optimality of Thompson Sampling with Noninformative Priors for Pareto Bandits</a></h3>
+          <p class="authors">Jongyeong Lee, Junya Honda, Chao-Kai Chiang, and Masashi Sugiyama</p>
+          <p>Analyzes when Thompson sampling is optimal for heavy-tailed Pareto bandits and how truncation restores optimality.</p>
+        </article>
+        <article class="publication selected-publication">
+          <div class="pub-meta"><span>AAAI 2024</span><span>Bandits</span><span>1 citation</span></div>
+          <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29240">The Choice of Noninformative Priors for Thompson Sampling in Multiparameter Bandit Models</a></h3>
+          <p class="authors">Jongyeong Lee, Chao-Kai Chiang, and Masashi Sugiyama</p>
+          <p>Studies how prior choices affect Thompson sampling in multiparameter bandit models.</p>
+        </article>
+        <article class="publication selected-publication">
+          <div class="pub-meta"><span>AISTATS 2025</span><span>Domain adaptation</span><span>6 citations</span></div>
+          <h3><a href="https://proceedings.mlr.press/v258/koc25a.html">Domain Adaptation and Entanglement: an Optimal Transport Perspective</a></h3>
+          <p class="authors">Okan Koc, Alexander Soen, Chao-Kai Chiang, and Masashi Sugiyama</p>
+          <p>Provides an optimal-transport view of domain adaptation and introduces entanglement as a term explaining when alignment fails.</p>
+        </article>
+      </div>
+    </section>
+
     <section id="publications" class="section">
       <div class="section-heading compact">
         <p class="eyebrow">Publications</p>
@@ -136,123 +222,164 @@
         <button class="filter" data-filter="Conference">Conference</button>
         <button class="filter" data-filter="Preprint">Preprint</button>
         <a class="button small" href="assets/docs/List_of_publications.pdf">Publication PDF</a>
+        <a class="button small" href="https://scholar.google.com/citations?user=pBQgK_YAAAAJ&hl=en&oi=ao">Google Scholar</a>
+        <a class="button small" href="https://dblp.org/pid/34/8336.html">DBLP</a>
       </div>
       <div class="publication-list">
         
           <article class="publication" data-type="Journal" data-year="2025" data-venue="TMLR">
             <div class="pub-meta"><span>2025</span><span>Journal</span><span>TMLR</span></div>
-            <h3>Unified Risk Analysis for Weakly Supervised Learning</h3>
+            <h3><a href="https://openreview.net/forum?id=RGsdAwWuu6">Unified Risk Analysis for Weakly Supervised Learning</a></h3>
             <p class="authors">Chao-Kai Chiang and Masashi Sugiyama</p>
             <p>Transactions on Machine Learning Research, 2025.</p>
           </article>
           <article class="publication" data-type="Journal" data-year="2017" data-venue="JIHMSP">
             <div class="pub-meta"><span>2017</span><span>Journal</span><span>JIHMSP</span></div>
-            <h3>Online Learning Problems against Dynamic Strategies in Gradually Evolving Worlds</h3>
+            <h3><a href="https://dblp.org/rec/journals/jihmsp/LeeCW17.html">Online Learning Problems against Dynamic Strategies in Gradually Evolving Worlds</a></h3>
             <p class="authors">Chia-Jung Lee, Chao-Kai Chiang, and Mu-En Wu</p>
             <p>Journal of Information Hiding and Multimedia Signal Processing 8(4): 869-879.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2025" data-venue="AISTATS">
             <div class="pub-meta"><span>2025</span><span>Conference</span><span>AISTATS</span></div>
-            <h3>Domain Adaptation and Entanglement: an Optimal Transport Perspective</h3>
+            <h3><a href="https://proceedings.mlr.press/v258/koc25a.html">Domain Adaptation and Entanglement: an Optimal Transport Perspective</a></h3>
             <p class="authors">Okan Koc, Alexander Soen, Chao-Kai Chiang, and Masashi Sugiyama</p>
             <p>International Conference on Artificial Intelligence and Statistics, pp. 3034-3042.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2024" data-venue="AAAI">
             <div class="pub-meta"><span>2024</span><span>Conference</span><span>AAAI</span></div>
-            <h3>The Choice of Noninformative Priors for Thompson Sampling in Multiparameter Bandit Models</h3>
+            <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29240">The Choice of Noninformative Priors for Thompson Sampling in Multiparameter Bandit Models</a></h3>
             <p class="authors">Jongyeong Lee, Chao-Kai Chiang, and Masashi Sugiyama</p>
             <p>AAAI Conference on Artificial Intelligence, pp. 13383-13390.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2023" data-venue="NeurIPS">
             <div class="pub-meta"><span>2023</span><span>Conference</span><span>NeurIPS</span></div>
-            <h3>Imitation Learning from Vague Feedback</h3>
+            <h3><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/96e35b532b4932a86cce8c929ff3f960-Abstract-Conference.html">Imitation Learning from Vague Feedback</a></h3>
             <p class="authors">Xin-Qiang Cai, Yu-Jie Zhang, Chao-Kai Chiang, and Masashi Sugiyama</p>
             <p>Advances in Neural Information Processing Systems, pp. 48275-48292.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2023" data-venue="ICML">
             <div class="pub-meta"><span>2023</span><span>Conference</span><span>ICML</span></div>
-            <h3>Optimality of Thompson Sampling with Noninformative Priors for Pareto Bandits</h3>
+            <h3><a href="https://proceedings.mlr.press/v202/lee23d.html">Optimality of Thompson Sampling with Noninformative Priors for Pareto Bandits</a></h3>
             <p class="authors">Jongyeong Lee, Junya Honda, Chao-Kai Chiang, and Masashi Sugiyama</p>
             <p>International Conference on Machine Learning, pp. 18810-18851.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2019" data-venue="IJCAI">
             <div class="pub-meta"><span>2019</span><span>Conference</span><span>IJCAI</span></div>
-            <h3>Hyper-parameter Tuning under a Budget Constraint</h3>
+            <h3><a href="https://www.ijcai.org/proceedings/2019/794">Hyper-parameter Tuning under a Budget Constraint</a></h3>
             <p class="authors">Zhiyun Lu, Liyu Chen, Chao-Kai Chiang, and Fei Sha</p>
             <p>International Joint Conference on Artificial Intelligence, pp. 5744-5750.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2017" data-venue="NeurIPS">
             <div class="pub-meta"><span>2017</span><span>Conference</span><span>NeurIPS</span></div>
-            <h3>Federated Multi-Task Learning</h3>
+            <h3><a href="https://papers.nips.cc/paper/7029-federated-multi-task-learning">Federated Multi-Task Learning</a></h3>
             <p class="authors">Virginia Smith, Chao-Kai Chiang, Maziar Sanjabi, and Ameet Talwalkar</p>
             <p>Advances in Neural Information Processing Systems, pp. 4424-4434.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2016" data-venue="COLT">
             <div class="pub-meta"><span>2016</span><span>Conference</span><span>COLT</span></div>
-            <h3>An algorithm with nearly optimal pseudo-regret for both stochastic and adversarial bandits</h3>
+            <h3><a href="https://arxiv.org/abs/1605.08722">An algorithm with nearly optimal pseudo-regret for both stochastic and adversarial bandits</a></h3>
             <p class="authors">Peter Auer and Chao-Kai Chiang</p>
             <p>Annual Conference on Learning Theory, pp. 116-120. Alphabetical order; full version available as preprint.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2016" data-venue="AISTATS">
             <div class="pub-meta"><span>2016</span><span>Conference</span><span>AISTATS</span></div>
-            <h3>Pareto Front Identification from Stochastic Bandit Feedback</h3>
+            <h3><a href="https://proceedings.mlr.press/v51/auer16.html">Pareto Front Identification from Stochastic Bandit Feedback</a></h3>
             <p class="authors">Peter Auer, Chao-Kai Chiang, Ronald Ortner, and Madalina M. Drugan</p>
             <p>International Conference on Artificial Intelligence and Statistics, pp. 939-947.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2015" data-venue="RVSP">
             <div class="pub-meta"><span>2015</span><span>Conference</span><span>RVSP</span></div>
-            <h3>Resisting Dynamic Strategies in Gradually Evolving Worlds</h3>
+            <h3><a href="https://dblp.org/rec/conf/rvsp/LeeCW15.html">Resisting Dynamic Strategies in Gradually Evolving Worlds</a></h3>
             <p class="authors">Chia-Jung Lee, Chao-Kai Chiang, and Mu-En Wu</p>
             <p>International Conference on Robot, Vision and Signal Processing, pp. 191-194. Short conference paper.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2014" data-venue="ACML">
             <div class="pub-meta"><span>2014</span><span>Conference</span><span>ACML</span></div>
-            <h3>Pseudo-reward Algorithms for Contextual Bandits with Linear Payoff Functions</h3>
+            <h3><a href="https://proceedings.mlr.press/v39/chou14.html">Pseudo-reward Algorithms for Contextual Bandits with Linear Payoff Functions</a></h3>
             <p class="authors">Ku-Chun Chou, Hsuan-Tien Lin, Chao-Kai Chiang, and Chi-Jen Lu</p>
             <p>Asian Conference on Machine Learning, pp. 344-359.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2013" data-venue="COLT">
             <div class="pub-meta"><span>2013</span><span>Conference</span><span>COLT</span></div>
-            <h3>Beating Bandits in Gradually Evolving Worlds</h3>
+            <h3><a href="https://proceedings.mlr.press/v30/Chiang13.html">Beating Bandits in Gradually Evolving Worlds</a></h3>
             <p class="authors">Chao-Kai Chiang, Chia-Jung Lee, and Chi-Jen Lu</p>
             <p>Annual Conference on Learning Theory, pp. 210-227. Alphabetical order.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2012" data-venue="COLT">
             <div class="pub-meta"><span>2012</span><span>Conference</span><span>COLT</span></div>
-            <h3>Online Optimization with Gradual Variations</h3>
+            <h3><a href="https://proceedings.mlr.press/v23/chiang12.html">Online Optimization with Gradual Variations</a></h3>
             <p class="authors">Chao-Kai Chiang, Tianbao Yang, Chia-Jung Lee, Mehrdad Mahdavi, Chi-Jen Lu, Rong Jin, and Shenghuo Zhu</p>
             <p>Annual Conference on Learning Theory, pp. 6.1-6.20. Mark Fulk Best Student Paper Award.</p>
           </article>
           <article class="publication" data-type="Conference" data-year="2010" data-venue="SODA">
             <div class="pub-meta"><span>2010</span><span>Conference</span><span>SODA</span></div>
-            <h3>Online Learning with Queries</h3>
+            <h3><a href="https://doi.org/10.1137/1.9781611973075.51">Online Learning with Queries</a></h3>
             <p class="authors">Chao-Kai Chiang and Chi-Jen Lu</p>
             <p>Annual ACM-SIAM Symposium on Discrete Algorithms, pp. 616-629.</p>
           </article>
           <article class="publication" data-type="Preprint" data-year="2025" data-venue="arXiv">
             <div class="pub-meta"><span>2025</span><span>Preprint</span><span>arXiv</span></div>
-            <h3>LLM Routing with Dueling Feedback</h3>
+            <h3><a href="https://arxiv.org/abs/2510.00841">LLM Routing with Dueling Feedback</a></h3>
             <p class="authors">Chao-Kai Chiang, Takashi Ishida, and Masashi Sugiyama</p>
             <p>arXiv:2510.00841. Under double-blind review in uploaded publication list.</p>
           </article>
           <article class="publication" data-type="Preprint" data-year="2023" data-venue="arXiv">
             <div class="pub-meta"><span>2023</span><span>Preprint</span><span>arXiv</span></div>
-            <h3>Asymptotically Optimal Thompson Sampling Based Policy for the Uniform Bandits and the Gaussian Bandits</h3>
+            <h3><a href="https://arxiv.org/abs/2302.14407">Asymptotically Optimal Thompson Sampling Based Policy for the Uniform Bandits and the Gaussian Bandits</a></h3>
             <p class="authors">Jongyeong Lee, Chao-Kai Chiang, and Masashi Sugiyama</p>
             <p>arXiv:2302.14407v1. Preliminary version of the AAAI 2024 paper.</p>
           </article>
           <article class="publication" data-type="Preprint" data-year="2019" data-venue="arXiv">
             <div class="pub-meta"><span>2019</span><span>Preprint</span><span>arXiv</span></div>
-            <h3>Hyper-parameter Tuning under a Budget Constraint</h3>
+            <h3><a href="https://www.ijcai.org/proceedings/2019/794">Hyper-parameter Tuning under a Budget Constraint</a></h3>
             <p class="authors">Zhiyun Lu, Chao-Kai Chiang, and Fei Sha</p>
             <p>arXiv:1902.00532. Preliminary version of the IJCAI 2019 paper.</p>
           </article>
           <article class="publication" data-type="Preprint" data-year="2016" data-venue="arXiv">
             <div class="pub-meta"><span>2016</span><span>Preprint</span><span>arXiv</span></div>
-            <h3>An algorithm with nearly optimal pseudo-regret for both stochastic and adversarial bandits</h3>
+            <h3><a href="https://arxiv.org/abs/1605.08722">An algorithm with nearly optimal pseudo-regret for both stochastic and adversarial bandits</a></h3>
             <p class="authors">Peter Auer and Chao-Kai Chiang</p>
             <p>arXiv:1605.08722. Full version of the COLT 2016 paper.</p>
           </article>
+      </div>
+    </section>
+
+    <section id="teaching" class="section two-column">
+      <div>
+        <p class="eyebrow">Teaching and mentoring</p>
+        <h2>Courses and mentoring philosophy</h2>
+      </div>
+      <div class="prose">
+        <p>I teach and mentor students through fundamentals, selected machine learning courses, and specialized topics in realistic learning conditions. I emphasize intuition, rigorous reasoning, paper discussion, and hands-on projects.</p>
+        <div class="course-grid">
+          <div>
+            <h3>Basic courses</h3>
+            <ul>
+              <li>Algorithms</li>
+              <li>Data Structures</li>
+              <li>Linear Algebra</li>
+              <li>Probability</li>
+              <li>Discrete Mathematics</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Selected courses</h3>
+            <ul>
+              <li>Convex Optimization</li>
+              <li>Statistical Machine Learning</li>
+              <li>Reinforcement Learning</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Specialized topics</h3>
+            <ul>
+              <li>Weakly Supervised Learning</li>
+              <li>Learning with Noisy Labels</li>
+              <li>Dataset Shift in Machine Learning</li>
+              <li>Online Learning and Multi-armed Bandits</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -264,6 +391,7 @@
         <div class="contact-links">
           <a href="mailto:chaokai.utokyo@gmail.com">chaokai.utokyo@gmail.com</a>
           <a href="https://scholar.google.com/citations?user=pBQgK_YAAAAJ&hl=en&oi=ao">Google Scholar</a>
+          <a href="https://dblp.org/pid/34/8336.html">DBLP</a>
           <a href="https://github.com/chaokai">GitHub</a>
         </div>
       </div>

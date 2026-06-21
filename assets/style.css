@@ -567,3 +567,73 @@ h3 {
     box-shadow: none;
   }
 }
+
+.vision-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 20px;
+  align-items: stretch;
+}
+
+.vision-card {
+  background: var(--ink);
+  color: white;
+  border-radius: var(--radius);
+  padding: 34px;
+  box-shadow: var(--shadow);
+}
+
+.vision-card .eyebrow,
+.vision-card p {
+  color: rgba(255,255,255,0.76);
+}
+
+.vision-card h2 {
+  color: white;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+}
+
+.metrics-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.metric-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px;
+  display: grid;
+  align-content: center;
+  box-shadow: 0 18px 44px rgba(31, 41, 51, 0.07);
+}
+
+.metric-number {
+  color: var(--accent-dark);
+  font-weight: 900;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1;
+}
+
+.metric-label {
+  color: var(--muted);
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.selected-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.selected-publication {
+  border-left: 5px solid var(--accent);
+}
+
+@media (max-width: 900px) {
+  .vision-section,
+  .selected-list {
+    grid-template-columns: 1fr;
+  }
+}
