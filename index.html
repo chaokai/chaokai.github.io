@@ -40,8 +40,8 @@
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
       <div id="nav-menu" class="nav-menu">
         <a href="#recruiting">Recruiting</a>
-        <a href="#research">Research</a>        
         <a href="#vision">Vision</a>
+        <a href="#research">Research</a>
         <a href="#selected-publications">Selected Publications</a>
         <a href="#publications">Publications</a>
         <a href="assets/docs/CV_ckchiang.pdf">CV</a>
@@ -81,6 +81,27 @@
         <p class="eyebrow">Recruiting</p>
         <h2>Prospective students</h2>
         <p>I welcome motivated students interested in principled machine learning, especially weak supervision, noisy labels, distribution shift, online learning, bandit algorithms, and adaptive learning systems. Prospective students are encouraged to email me with a CV and a brief description of their research interests.</p>
+      </div>
+    </section>
+    <section id="vision" class="section vision-section">
+      <div class="vision-card">
+        <p class="eyebrow">Research Vision</p>
+        <h2>Remove application boundaries to lay the fundamental knowledge for future innovations.</h2>
+        <p>Modern machine learning often assumes clean labels, stable distributions, and complete feedback, while real-world systems must learn from weak, noisy, shifted, or sequentially revealed information. My research develops unified theory and practical algorithms for these realistic settings, with a long-term goal of understanding the weakest yet learnable forms of supervision and building adaptive learning systems that remain reliable beyond idealized assumptions.</p>
+      </div>
+      <div class="metrics-grid" aria-label="Google Scholar citation statistics">
+        <div class="metric-card">
+          <span class="metric-number">3,647+</span>
+          <span class="metric-label">Google Scholar citations</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-number">2,979</span>
+          <span class="metric-label">citations for Federated Multi-Task Learning</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-number">327</span>
+          <span class="metric-label">citations for Online Optimization with Gradual Variations</span>
+        </div>
       </div>
     </section>
     <section id="research" class="section">
@@ -128,27 +149,6 @@
         </div>
       </div>
     </section>
-    <section id="vision" class="section vision-section">
-      <div class="vision-card">
-        <p class="eyebrow">Research Vision</p>
-        <h2>Remove application boundaries to lay the fundamental knowledge for future innovations.</h2>
-        <p>Modern machine learning often assumes clean labels, stable distributions, and complete feedback, while real-world systems must learn from weak, noisy, shifted, or sequentially revealed information. My research develops unified theory and practical algorithms for these realistic settings, with a long-term goal of understanding the weakest yet learnable forms of supervision and building adaptive learning systems that remain reliable beyond idealized assumptions.</p>
-      </div>
-      <div class="metrics-grid" aria-label="Google Scholar citation statistics">
-        <div class="metric-card">
-          <span class="metric-number">3,647+</span>
-          <span class="metric-label">Google Scholar citations</span>
-        </div>
-        <div class="metric-card">
-          <span class="metric-number">2,979</span>
-          <span class="metric-label">citations for Federated Multi-Task Learning</span>
-        </div>
-        <div class="metric-card">
-          <span class="metric-number">327</span>
-          <span class="metric-label">citations for Online Optimization with Gradual Variations</span>
-        </div>
-      </div>
-    </section>
     <section id="selected-publications" class="section">
       <div class="section-heading compact">
         <p class="eyebrow">Selected Publications</p>
@@ -156,6 +156,12 @@
         <p>Selected first by recent top-conference publications, then by citation impact within the main research areas.</p>
       </div>
       <div class="selected-list">
+        <article class="publication selected-publication">
+          <div class="pub-meta"><span>TMLR 2025</span><span>Weak supervision</span><span>11 citations</span></div>
+          <h3><a href="https://openreview.net/forum?id=RGsdAwWuu6">Unified Risk Analysis for Weakly Supervised Learning</a></h3>
+          <p class="authors">Chao-Kai Chiang and Masashi Sugiyama</p>
+          <p>A unified contamination-decontamination view of weak supervision and risk rewriting across WSL/LLN settings.</p>
+        </article>
         <article class="publication selected-publication">
           <div class="pub-meta"><span>AISTATS 2025</span><span>Domain adaptation</span><span>6 citations</span></div>
           <h3><a href="https://proceedings.mlr.press/v258/koc25a.html">Domain Adaptation and Entanglement: an Optimal Transport Perspective</a></h3>
@@ -179,12 +185,6 @@
           <h3><a href="https://proceedings.mlr.press/v202/lee23d.html">Optimality of Thompson Sampling with Noninformative Priors for Pareto Bandits</a></h3>
           <p class="authors">Jongyeong Lee, Junya Honda, Chao-Kai Chiang, and Masashi Sugiyama</p>
           <p>Analyzes when Thompson sampling is optimal for heavy-tailed Pareto bandits and how truncation restores optimality.</p>
-        </article>
-        <article class="publication selected-publication">
-          <div class="pub-meta"><span>TMLR 2025</span><span>Weak supervision</span><span>11 citations</span></div>
-          <h3><a href="https://openreview.net/forum?id=RGsdAwWuu6">Unified Risk Analysis for Weakly Supervised Learning</a></h3>
-          <p class="authors">Chao-Kai Chiang and Masashi Sugiyama</p>
-          <p>A unified contamination-decontamination view of weak supervision and risk rewriting across WSL/LLN settings.</p>
         </article>
         <article class="publication selected-publication">
           <div class="pub-meta"><span>NeurIPS 2017</span><span>Federated learning</span><span>2,979 citations</span></div>
